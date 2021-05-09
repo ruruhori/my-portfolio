@@ -1,0 +1,51 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_1280.jpg");
+  /* 背景画像を表示する画面の大きさによって相対的に調整する */
+  background-size: cover;
+}
+
+.main {
+  background-color: powderblue;
+  /* 　余白 */
+  padding: 2rem;
+  width: 50%;
+  /* 真ん中によせる */
+  margin: 0 auto;
+  /* 上を開ける */
+  margin-top: 10px;
+  /* 角を丸くする */
+  border-radius: 7%;
+}
+
+.profile {
+  background-color: bisque;
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  padding: 2rem;
+  /* 文字を真ん中に */
+  text-align: center;
+  border-radius: 7%;
+  color: cornflowerblue;
+}
+
+.profile img {
+  width: 20%;
+  height: 20%;
+}
+
+.main2 {
+  background-color: steelblue;
+  padding: 2rem;
+  width: 50%;
+  margin: 0 auto;
+  /* mainとの間を開ける */
+  margin-top: 10px;
+}
+
+.arthist {
+  background-color: thistle;
+  padding: 2rem;
+  font-size: 15px;
+  text-align: center;
+  color: darkolivegreen;
+}
